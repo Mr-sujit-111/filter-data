@@ -1,0 +1,27 @@
+.left__sidebar__options {
+    background-color: #b1b0b066;
+    border-radius: 8px;
+    position: sticky;
+    top: 50px;
+}
+
+.left__sidebar__options>.filter__container {
+    padding: 25px;
+}
+
+.left__sidebar__options>.filter__container>.filter__heading {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.filter__title {
+    color: #ed721b;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.filter__name {
+    color: #000000;
+    font-weight: 500;
+}
