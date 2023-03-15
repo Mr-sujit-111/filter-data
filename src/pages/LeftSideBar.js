@@ -1,11 +1,14 @@
 import React from 'react'
+
 import TuneIcon from '@mui/icons-material/Tune';
 import { IconButton } from '@mui/material';
+
 import "../css/leftSideBar.css"
-import RadioFilter from '../component/RadioFilter';
+
 import DropdownFilter from '../component/DropdownFilter';
 import CheckBoxFilter from '../component/CheckBoxFilter';
 import SliderFilter from '../component/SliderFilter';
+import RadioFilter from '../component/RadioFilter';
 function LeftSideBar() {
     return (
         <>
