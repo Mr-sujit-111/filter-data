@@ -1,9 +1,7 @@
-import { useSelector } from 'react-redux';
 import React, { useEffect } from 'react'
 import { useState } from 'react';
-
+import { useSelector } from 'react-redux';
 import { dummyData } from '../assets/dummyData';
-
 function Body() {
     const { genderFilter, country, interestLanguages, rangeYearOfBirth } = useSelector((state) => state.filter);
     const [appliedfilter, setAppliedfilter] = useState({ genderFilterData: genderFilter, countryFilterData: country, interestLanguageData: interestLanguages, yearOfBirthData: rangeYearOfBirth });
